@@ -16,6 +16,8 @@ syntax = "proto3";
 
 package grpc.core;
 
+option go_package = "github.com/codeblooded/grpc-proto/genproto/grpc/core";
+
 message Bucket {
   double start = 1;
   uint64 count = 2;

@@ -16,6 +16,8 @@ syntax = "proto3";
 
 package grpc.testing;
 
+option go_package = "github.com/codeblooded/grpc-proto/genproto/grpc/testing";
+
 message ByteBufferParams {
   int32 req_size = 1;
   int32 resp_size = 2;

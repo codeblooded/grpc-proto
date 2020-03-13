@@ -19,6 +19,8 @@ import "grpc/testing/stats.proto";
 
 package grpc.testing;
 
+option go_package = "github.com/codeblooded/grpc-proto/genproto/grpc/testing";
+
 enum ClientType {
   // Many languages support a basic distinction between using
   // sync or async client, and this allows the specification

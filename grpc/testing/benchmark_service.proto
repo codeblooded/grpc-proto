@@ -20,6 +20,8 @@ import "grpc/testing/messages.proto";
 
 package grpc.testing;
 
+option go_package = "github.com/codeblooded/grpc-proto/genproto/grpc/testing";
+
 service BenchmarkService {
   // One request followed by one response.
   // The server returns the client payload as-is.

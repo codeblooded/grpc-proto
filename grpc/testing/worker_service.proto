@@ -20,6 +20,8 @@ import "grpc/testing/control.proto";
 
 package grpc.testing;
 
+option go_package = "github.com/codeblooded/grpc-proto/genproto/grpc/testing";
+
 service WorkerService {
   // Start server with specified workload.
   // First request sent specifies the ServerConfig followed by ServerStatus
